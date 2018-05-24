@@ -295,13 +295,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1387358233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb1151307ef994effa6fbc75dbe837a6, type: 3}
+  m_Script: {fileID: 11500000, guid: bf46bae76df0e4536a0c7419de75f4c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cameraImage: {fileID: 1432933980}
   labelMap: {fileID: 4900000, guid: 3c4c74b6fb0a84b32903936a5ab7c544, type: 3}
   model: {fileID: 4900000, guid: 735d39e0ba17e470e8026d72623758a0, type: 3}
-  objectColor: {r: 0.4483622, g: 0.9716981, b: 0.35292807, a: 1}
+  objectColor: {r: 0.39994782, g: 1, b: 0.25, a: 1}
   tex: {fileID: 2800000, guid: df58f449810c548818d4f841d9b683f9, type: 3}
 --- !u!4 &1387358235
 Transform:

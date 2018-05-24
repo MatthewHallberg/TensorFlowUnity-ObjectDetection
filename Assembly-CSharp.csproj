@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{10887628-DD5E-F952-CD6A-7F9EBFF8AB22}</ProjectGuid>
+    <ProjectGuid>{8E1AED36-6351-87BE-5DCB-6A58CCFBBFEF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,14 +61,14 @@
     <Compile Include="Assets\Scripts\CameraImage.cs" />
     <Compile Include="Assets\Scripts\CatalogItem.cs" />
     <Compile Include="Assets\Scripts\CatalogUtil.cs" />
-    <Compile Include="Assets\Scripts\Detection.cs" />
+    <Compile Include="Assets\Scripts\ObjectDetection.cs" />
     <Compile Include="Assets\Scripts\TextureTools.cs" />
     <None Include="Assets\Resources\mscoco_label_map.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/matthew/Desktop/TensorFlowObjectDetection/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/matthew/Desktop/TensorFlowUnity-ObjectDetection/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/matthew/Desktop/TensorFlowObjectDetection/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/matthew/Desktop/TensorFlowUnity-ObjectDetection/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -263,16 +263,16 @@
       <HintPath>/Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System.ValueTuple">
-      <HintPath>/Users/matthew/Desktop/TensorFlowObjectDetection/Assets/ML-Agents/Plugins/System.ValueTuple.dll</HintPath>
+      <HintPath>/Users/matthew/Desktop/TensorFlowUnity-ObjectDetection/Assets/ML-Agents/Plugins/System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics">
-      <HintPath>/Users/matthew/Desktop/TensorFlowObjectDetection/Assets/ML-Agents/Plugins/System.Numerics.dll</HintPath>
+      <HintPath>/Users/matthew/Desktop/TensorFlowUnity-ObjectDetection/Assets/ML-Agents/Plugins/System.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="TensorFlowSharp.Android">
-      <HintPath>/Users/matthew/Desktop/TensorFlowObjectDetection/Assets/ML-Agents/Plugins/Android/TensorFlowSharp.Android.dll</HintPath>
+      <HintPath>/Users/matthew/Desktop/TensorFlowUnity-ObjectDetection/Assets/ML-Agents/Plugins/Android/TensorFlowSharp.Android.dll</HintPath>
     </Reference>
     <Reference Include="TensorFlowSharp">
-      <HintPath>/Users/matthew/Desktop/TensorFlowObjectDetection/Assets/ML-Agents/Plugins/Computer/TensorFlowSharp.dll</HintPath>
+      <HintPath>/Users/matthew/Desktop/TensorFlowUnity-ObjectDetection/Assets/ML-Agents/Plugins/Computer/TensorFlowSharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/matthew/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

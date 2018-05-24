@@ -362,7 +362,7 @@ PlayerSettings:
     m_Devices: []
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: iOS
-    m_Enabled: 1
+    m_Enabled: 0
   - m_BuildTarget: Android
     m_Enabled: 0
   openGLRequireES31: 0
@@ -640,7 +640,8 @@ PlayerSettings:
     4: ENABLE_TENSORFLOW
     7: ENABLE_TENSORFLOW
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 0
   il2cppCompilerConfiguration: {}
   incrementalIl2cppBuild: {}
   allowUnsafeCode: 0

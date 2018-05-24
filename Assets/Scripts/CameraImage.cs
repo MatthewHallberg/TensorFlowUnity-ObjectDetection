@@ -18,19 +18,10 @@ public class CameraImage : MonoBehaviour {
 
     public Color32[] ProcessImage(){
         //crop
-        var cropped = CropTexture(webcamTexture);
+        var cropped = TextureTools.CropTexture(webcamTexture);
         //scale
-        var scaled = TextureTools.scaled(cropped, 224, 224, FilterMode.Bilinear);
+        var scaled = TextureTools.scaled(cropped, 112, 112, FilterMode.Bilinear);
         //run detection
         return scaled.GetPixels32();
-    }
-
-    private Texture2D CropTexture(WebCamTexture tex) {
-        var smallest = tex.width < tex.height ?
-            tex.width : tex.height;
-        var snap = TextureTools.CropWithRect(tex,
-            new Rect(0, 0, smallest, smallest),
-            TextureTools.RectOptions.Center, 0, 0);
-        return snap;
     }
 }

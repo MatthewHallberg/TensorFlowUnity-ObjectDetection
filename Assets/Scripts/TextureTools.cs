@@ -24,6 +24,15 @@ using UnityEngine;
 			Custom = 9
 		}
 
+    public static Texture2D CropTexture(WebCamTexture tex) {
+        var smallest = tex.width < tex.height ?
+            tex.width : tex.height;
+        var snap = TextureTools.CropWithRect(tex,
+            new Rect(0, 0, smallest, smallest),
+            TextureTools.RectOptions.Center, 0, 0);
+        return snap;
+    }
+
 	public static Texture2D CropWithRect(Texture2D texture, Rect rect, RectOptions rectOptions,  int xMod, int yMod){
 			if(rect.height < 0 || rect.width < 0)
 			{
